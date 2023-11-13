@@ -1,1 +1,21 @@
 /* Write your code here: */
+/* grouping selectors */
+h1, h2{
+    color: blueviolet;
+}
+/* parent > child  selector only 1 generation deep*/
+.box > p{
+    color: firebrick;
+}
+/* anscector_decendent combination  only sapce*/
+.box li{
+    color: blue;
+}
+/* chaining - no space*/
+/* chaining= apply this style where ALL selectors are true */
+li.done{
+    color: green;
+}
+ul p.done{
+    font-size: 2rem;
+}
