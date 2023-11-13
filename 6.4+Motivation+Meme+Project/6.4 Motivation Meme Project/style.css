@@ -1,0 +1,27 @@
+html{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+}
+p{
+    text-align: center;
+    color: whitesmoke;
+
+}
+.outer{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    text-align: center; 
+}
+#pic{
+    border: 5px solid white;
+  width: 100%;
+}
