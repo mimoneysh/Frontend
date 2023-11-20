@@ -1,0 +1,42 @@
+var bottles = prompt("How many bottles of milk you want?");
+var money = prompt("Please give me money");
+
+    function getMilk(bottles, money) {  
+        
+        alert("you have given: "+ money+" to me!")
+       
+      console.log("leaveHouse");
+      console.log("moveRight");
+      console.log("moveRight");
+      console.log("moveUp");
+      console.log("moveUp");
+      console.log("moveUp");
+      console.log("moveUp");
+      console.log("moveRight");
+      console.log("moveRight");
+        alert("Based on money given I can buy "+calBottles(money,70)+" bottles of Milk");
+        //alert("pay Rs. " +cost+" to shopkeeper");
+      console.log("moveLeft");
+      console.log("moveLeft");
+      console.log("moveDown");
+      console.log("moveDown");
+      console.log("moveDown");
+      console.log("moveDown");
+      console.log("moveLeft");
+      console.log("moveLeft");
+      console.log("enterHouse");
+        alert("Returned this balance amount: "+money%70);
+        alert("Task completed");
+        return money%70;
+    }
+
+
+    var change=getMilk(bottles, money);
+console.log(change);
+
+function calBottles(inputMoney,bottleRate){
+     var maxBottles = Math.floor(money/70);
+    return maxBottles;
+    
+}
+
