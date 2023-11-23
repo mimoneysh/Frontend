@@ -2,9 +2,11 @@
 $("button").on("click",function(){
 
 
-    //Chaining Animations
+    //Chaining Animations jsut add with "."
     $("h1").slideUp().slideDown().animate({opacity:0.3});
 
+    
+    
     // $("h1").animate({
     //         margin: "20%"//if u want to use string use ""
     //     //color: red  //no string values only numeric
