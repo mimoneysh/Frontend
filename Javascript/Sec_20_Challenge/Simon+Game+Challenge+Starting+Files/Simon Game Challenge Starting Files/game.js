@@ -1,4 +1,4 @@
-//alert("Welcome to simon..!\nRemember flashing pattern to score.");
+alert("Welcome to simon..!\nRemember flashing pattern to score.");
 var gamePattern =[];
 var buttonColours =["red", "blue", "green", "yellow"];
 var userClikedPattern=[];
