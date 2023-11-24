@@ -24,10 +24,27 @@ function checkAnswer(currentLevel){
     }
   }else{
     console.log("wrong");
+    $("body").addClass("game-over");
+    playSound("wrong");
+    $("h1").text("Game Over, Press Any Key to Restart");
+    setTimeout(function(){
+      $("body").removeClass("game-over");
+      
+      
+    },200);
+
+
+    startOver()
   }
 
 }
 
+function startOver()
+{
+  level=0;
+  gamePattern=[];
+  started = false;
+}
 
 
 $(".btn").click(function(){
@@ -40,6 +57,8 @@ $(".btn").click(function(){
   
 
 function nextSequence(){
+
+  userClikedPattern=[];
     level++;
     $("#level-title").text("Level: "+level);
 
