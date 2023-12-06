@@ -47,7 +47,6 @@ function startOver()
   started = false;
 }
 
-
 $(".btn").click(function(){
       var userChosenColour=$(this).attr("id");
       userClikedPattern.push(userChosenColour)
